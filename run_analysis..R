@@ -41,6 +41,8 @@ activity <- read.table("UCI HAR Dataset/activity_labels.txt")
 tidydata$activity = activity[match(tidydata$y,activity$V1),2]
 tidydata = tidydata[,c(1,89,2:88)]
 
+rr
+
 
 
 
