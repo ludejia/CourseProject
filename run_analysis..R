@@ -60,4 +60,5 @@ groupmean = tidydata %>%
 # export the data to a file
 write.table(groupmean, "Data.txt", row.name=FALSE)
 
+write.csv(groupmean, "./Data.csv")
 
